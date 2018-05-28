@@ -1,0 +1,96 @@
+body {
+  font-family: Avenir Next;
+  background: #2B2B2B;
+}
+
+.header {
+  height: 10vh;
+}
+
+.headerVideo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: cover;
+}
+
+.inscription {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mainContent {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerImg {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin-top: 5px;
+  height: 75px;
+}
+
+.buttonMenu {
+  height: 10vh;
+  width: 15vw;
+  margin-top: 2.5%;
+}
+
+.connexion {
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  border: 0;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: #ffa400;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.inscription {
+  margin-right: 5%;
+}
+
+.connexion:hover {
+  transition: 0.3s ease;
+  background: #ffb42b;
+  text-decoration: none;
+  color: #2B2B2B;
+}
+
+.contentHomepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 85vh;
+}
+
+.freeInscription:hover {
+  transition: 0.3s ease;
+  background: #ffb42b;
+  text-decoration: none;
+  color: #2B2B2B;
+}
+
+.headerText {
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.orangeText {
+  color: #FFA400;
+  font-weight: bold;
+}
