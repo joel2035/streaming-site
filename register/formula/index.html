@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Formulaire</title>
+</head>
+
+<body>
+
+  <header class='header'>
+    <div class='mainContent'>
+      <a href="../../index.html"><img class="headerImg" src="../../img/Logo_SI_JS_Sans.png" alt="FullScreen"></a>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div class="container">
+      <h1>Créer votre <span class="orangeText">compte</span>.</h1>
+
+      <form class="form">
+        <div class='centeredForm'>
+          <input class="bigForm" type="Pseudo" placeholder="Pseudo">
+        </div>
+        <div>
+          <input class="littleForm" type="nickname" placeholder="Nom">
+          <input class="littleForm" type="name" placeholder="Prénom">
+        </div>
+        <div class='centeredForm'>
+          <input class="bigForm2" type="email" placeholder="E-Mail">
+        </div>
+        <input class="littleForm2" type="password" placeholder="Mot de Passe">
+        <input class="littleForm3" type="password" placeholder="Vérifier Mot de Passe">
+        <div class="plusBas">
+          <a class="connexion" href="../success/index.html" id="login-button">S'inscrire</a>
+        </div>
+      </form>
+
+      <a class="returnTitle" href="../index.html">Retour à l'accueil</a>
+      <p class="court">Le pseudo saisi est trop court (4 caractères minimum)</p>
+      <p class="long">Le pseudo saisi est trop long (12 caractères maximum)</p>
+      <p class="errormdp">Les mots de passes saisis sont différents</p>
+      <p class="manque">L'E-mail saisi incorrect, veuillez indiquer un E-mail respectant la nomenclature.</p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/formulaire.js"></script>
+
+</body>
+
+</html>

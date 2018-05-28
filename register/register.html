@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FullScreen - Inscription</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class='header'>
+
+    <div class='mainContent'>
+      <a href="../index.html"><img class="headerImg" src="../img/Logo_SI_JS_Sans.png" alt="FullScreen"></a>
+      <div class='buttonMenu'>
+        <a href='../login/index.html' class='connexion'>Se connecter</a>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="wrapper">
+    <div class="container">
+      <h1>Nouveau sur <span class="orangeText">FullScreen</span> ?</h1>
+      <br />
+      <h2>Inscrivez vous, et interagissez avec <span class="orangeText noBold">la communauté</span> !</h2>
+
+      <form class="form">
+        <a href="formula/index.html" class="connexion" id="login-button">S'inscrire Maintenant</a>
+      </form>
+      <a class="returnTitle" href="../login/index.html">Déjà inscrit ?</a>
+      <p>—</p>
+      <a class="returnTitle" href="../accueil/index.html">Retour à l'accueil</a>
+    </div>
+  </div>
+
+  <script>
+    $("#login-button").click(function(event) {
+      event.preventDefault();
+
+      $('form').fadeOut(500);
+      $('.wrapper').addClass('form-success');
+    });
+  </script>
+
+
+</body>
+
+</html>
